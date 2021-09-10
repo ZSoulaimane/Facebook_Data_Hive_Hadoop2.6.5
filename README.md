@@ -2,7 +2,7 @@
 
 ## Establishing folder and CSV File
 
-### Step 1 ( install hadoop2.6.5 from HortonWorks )
+#### Step 1 ( install hadoop2.6.5 from HortonWorks )
 
 ### Step 2 ( connect to apache ambari using "maria_dev" )
 
