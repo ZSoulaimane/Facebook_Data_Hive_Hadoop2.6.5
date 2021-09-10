@@ -8,7 +8,9 @@
 
 ### Step 3 ( launch putty HDFS and create Facebook folder )
 
-``` hadoop fs -mkdir facebookfolder ```
+```shell
+hadoop fs -mkdir facebookfolder 
+```
 
 ### Step 4 ( upload pseudo_facebook.csv into 'facebookfolder' )
 
