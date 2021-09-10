@@ -16,7 +16,7 @@ hadoop fs -mkdir facebookfolder
 
 ### Step 5 ( check file existance inside the folder )
 
-``` hadoop fs -ls facebookfolder ```
+```shell hadoop fs -ls facebookfolder ```
 
 ![10 09 2021_14 17 24_REC](https://user-images.githubusercontent.com/53901834/132864679-bcb90161-2697-48ea-8f63-1661f5a5a6bd.png)
 
