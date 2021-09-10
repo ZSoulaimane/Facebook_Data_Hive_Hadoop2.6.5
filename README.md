@@ -16,7 +16,9 @@ hadoop fs -mkdir facebookfolder
 
 ### Step 5 ( check file existance inside the folder )
 
-```shell hadoop fs -ls facebookfolder ```
+```shell
+hadoop fs -ls facebookfolder
+```
 
 ![10 09 2021_14 17 24_REC](https://user-images.githubusercontent.com/53901834/132864679-bcb90161-2697-48ea-8f63-1661f5a5a6bd.png)
 
@@ -24,19 +26,27 @@ hadoop fs -mkdir facebookfolder
 
 ### Step 1 ( connect to Hive )
 
-``` hive ```
+```shell
+hive
+```
 
 ### Step 2 ( showing all databases )
 
-``` show databases; ```
+```shell
+show databases;
+```
 
 ### Step 3 ( choose one 'default' database as example )
 
-``` use default; ```
+```shell
+use default;
+```
 
 ### Step 4 ( create facebook table inside table )
 
-``` create table FB(id int, age int, day int, year int, month int, gender string, tenure int, friends int, friend_init int, likes int, likes_recd int, mlike int, mlikes_recd int, wlikes int, wlikes_recd int) row format delimited fields terminated by ',' stored as textfile location '/user/maria_dev/facebookdata/'; ```
+```shell
+create table FB(id int, age int, day int, year int, month int, gender string, tenure int, friends int, friend_init int, likes int, likes_recd int, mlike int, mlikes_recd int, wlikes int, wlikes_recd int) row format delimited fields terminated by ',' stored as textfile location '/user/maria_dev/facebookdata/';
+```
 
 ### Step 4 ( ccheck )
 
